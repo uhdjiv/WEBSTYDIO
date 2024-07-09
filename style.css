@@ -1,0 +1,255 @@
+​/* * - універсальний селектор - дозволяє обрати всі елементи на сторінці -  */
+* {
+    /* Зовнішній відступ або відступ від обʼєкту */
+    margin: 0;
+    /* Внутрішній відступ */
+    padding: 0;
+    /* кордони */
+    border: 0;
+    /* box-sizing - розраховує поведінку елемента  -  border-box(Обовʼязково)*/
+    box-sizing: border-box;
+  }
+  
+  a {
+    /*  text-decoration:none - дозволяє прибрати підкреслювання */
+    text-decoration: none;
+  }
+  
+  ul,
+  ol {
+    /* декоративне маркування буде прибрано */
+    list-style: none;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.conteiner{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.navigation{
+display: flex;
+align-items: center;
+height: 80px;
+}
+.logo{
+font-family: Raleway;
+font-weight: bold;
+font-size: 26px;
+color: #2196F3;
+}
+.span{
+color: #000000;
+}
+.nav-ul{
+    font-family: Roboto;
+    font-weight: Medium;
+    font-size: 14px;
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+}
+.nav-li{
+margin: 20px;
+}
+.nav-li:hover{
+    color: #2196F3;
+    cursor: pointer;
+}
+.info{
+    font-family: Roboto;
+    font-weight: Medium;
+    font-size: 14px;
+    display: flex;
+    margin-left: 250px;
+    align-items: center;
+}
+.info-li{
+margin: 20px;
+}
+.info-li-a{
+    color: #757575;
+}
+.info-li-a:hover{
+    color: #2196F3;
+    cursor: pointer;
+}
+.section-1{
+height: 550px;
+background-image: url(./img/Img.webp);
+}
+.h1-section1{
+    font-family: Roboto;
+    font-weight: Black;
+    font-size: 44px;
+    text-align: center;
+    padding-top: 150px;
+    color: #FFFFFF;
+}
+.button-section1{
+    font-size: 16px;
+    margin: 0 auto;
+    width: 216px;
+height: 50px;
+border-radius: 5px 5px 5px 5px;
+background-color:#2196F3;
+/* Замовити послугу */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+/* display: flex;
+justify-content: center; */
+margin-top: 30px;
+}
+.a-section1{
+    display: flex;
+    justify-content: center;
+
+}
+.center{
+    text-align: center;
+}
+.section-2{
+height: 130px;
+}
+.ul-section2{
+display: flex;
+margin: 10px;
+margin-top: 100px;
+
+}
+.li-section2{
+
+}
+.b-li-section2{
+font-family: Roboto;
+font-weight: Bold;
+font-size: 14px;
+}
+.p-li-section2{
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 14px;
+    color: #757575;
+}
+.section3{
+    height: 440px;
+}
+.h2-section3{
+    font-family: Roboto;
+    font-weight: Bold;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.ul-section3{
+display: flex;
+}
+.li-section3{
+margin: 10px;
+}
+.img-section3{
+width: 370px;
+height: 294px;
+}
+.section-4{
+height: 548px;
+background-color: #F5F4FA;
+}
+.h2-section4{
+    font-family: Roboto;
+    font-weight: Bold;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    
+}
+.ul-section4{
+    display: flex;
+    padding: 0px;
+}
+.li-section4{
+    margin: 13px;
+    background-color: #FFFFFF;
+}
+.img-section4{
+width: 270px;
+height: 260px;
+}
+.p-name-section4{
+    font-family: Roboto;
+    font-weight: Medium;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.p-work-section4{
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 16px;
+    color: #757575;
+        display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.logo2{
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    color: #2196F3;
+}
+.span-2{
+    color: #FFFFFF;
+}
+.address{
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+
+
+}
+.address-li-a{
+    color: #FFFFFF99;
+}
+.address-li-a:hover{
+    color: #2196F3;
+    cursor: pointer;
+}
+.mail{
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 14px;
+}
+.tel{
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 14px;
+}
+footer{
+    height: 152px;
+    background-color: #2F303A;
+}
